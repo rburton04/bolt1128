@@ -8,7 +8,7 @@ Created by aenoksen on 11/21/17
      |Sean   |Why didn't we have this sooner? |
      |Arun   |This is just awesome!           |
 
-*Go to "http://192.168.1.44:8086/home"
+*Go to "http://13.57.101.99:8085/home"
 
 Comment on Conference Schedule
 ------------------------------
