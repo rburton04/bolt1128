@@ -1,0 +1,7 @@
+{
+	"Args": [
+		"run",
+		"--dir=/home/swat/bolt1128/gaugetest"
+	],
+	"FailedItems": []
+}

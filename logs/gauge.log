@@ -1,0 +1,636 @@
+10:27:28.641 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+10:27:28.862 Checking updates...
+10:27:39.039 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+10:27:39.063 # CONFERENCESCHEDULE
+10:27:41.267 
+   |name  |comment       |
+   |------|--------------|
+   |Andrew|BOLT is great!|
+10:27:41.267 ## Comment on Conference Schedule
+10:27:41.273 * Go to "http://192.168.99.1:8085/home"
+
+10:29:56.015 * Navigate to "Conference Schedule" tab
+10:30:42.868 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+10:30:43.148 Checking updates...
+10:30:50.870 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+10:30:50.902 # CONFERENCESCHEDULE
+10:30:52.861 
+   |name  |comment       |
+   |------|--------------|
+   |Andrew|BOLT is great!|
+10:30:52.861 ## Comment on Conference Schedule
+10:30:52.864 * Go to "http://192.168.1.44:8086/home"
+
+10:30:59.037 * Navigate to "Conference Schedule" tab
+10:31:04.589 Failed Step: Navigate to "Conference Schedule" tab
+10:31:04.589 Error Message: java.lang.AssertionError: Unable to click linked text: Conference Schedule
+10:31:04.589 Specification: specs/conference_app/ConferenceSchedule.spec:15
+10:31:04.589 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+selenium.SeleniumActions.clickByLinkedText(SeleniumActions.java:58)
+selenium.GeneralSteps.navigateToTab(GeneralSteps.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:31:04.591 
+   |name|comment                        |
+   |----|-------------------------------|
+   |Sean|Why didn't we have this sooner?|
+10:31:04.591 ## Comment on Conference Schedule
+10:31:04.606 * Go to "http://192.168.1.44:8086/home"
+
+10:31:05.329 * Navigate to "Conference Schedule" tab
+10:31:06.601 * Navigate to "25.03.2015" tab
+10:31:06.938 * Click "Comment" button
+10:31:18.832 * Click "Add Comment" button
+10:31:20.083 * Enter text <name> in field "1"
+10:31:20.449 * Enter text <comment> in field "2"
+10:31:20.997 * Click "Add comment" button
+
+10:31:21.545 
+   |name|comment              |
+   |----|---------------------|
+   |Arun|This is just awesome!|
+10:31:21.545 ## Comment on Conference Schedule
+10:31:21.549 * Go to "http://192.168.1.44:8086/home"
+
+10:31:22.439 * Navigate to "Conference Schedule" tab
+10:31:23.753 * Navigate to "25.03.2015" tab
+10:31:24.080 * Click "Comment" button
+10:31:35.546 * Click "Add Comment" button
+10:31:36.671 * Enter text <name> in field "1"
+10:31:36.980 * Enter text <comment> in field "2"
+10:31:37.500 * Click "Add comment" button
+
+10:31:38.193 # USERFEEDBACK
+10:31:39.613 
+   |name  |feedback      |
+   |------|--------------|
+   |Andrew|BOLT is great!|
+10:31:39.613 ## Add User Feedback
+10:31:39.614 * Go to "http://192.168.1.44:8086/home"
+10:31:46.302 * Navigate to "User feedback" tab
+
+10:31:47.190 * Enter text <name> in field "1"
+10:31:48.072 * Enter text <feedback> in field "2"
+10:31:48.456 * Click "Send Feedback" button
+
+10:31:49.141 
+   |name|feedback                       |
+   |----|-------------------------------|
+   |Sean|Why didn't we have this sooner?|
+10:31:49.141 ## Add User Feedback
+10:31:49.141 * Go to "http://192.168.1.44:8086/home"
+10:31:49.902 * Navigate to "User feedback" tab
+
+10:31:50.466 * Enter text <name> in field "1"
+10:31:50.855 * Enter text <feedback> in field "2"
+10:31:51.405 * Click "Send Feedback" button
+
+10:31:52.595 
+   |name|feedback             |
+   |----|---------------------|
+   |Arun|This is just awesome!|
+10:31:52.595 ## Add User Feedback
+10:31:52.599 * Go to "http://192.168.1.44:8086/home"
+10:31:52.870 * Navigate to "User feedback" tab
+
+10:31:53.217 * Enter text <name> in field "1"
+10:31:53.727 * Enter text <feedback> in field "2"
+10:31:54.525 * Click "Send Feedback" button
+
+10:31:55.013 # JMETER
+10:31:55.016 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|1          |1           |1        |
+10:31:55.016 ## JMeter Test
+10:31:55.024 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:31:56.121 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+10:31:56.121 ## JMeter Test
+10:31:56.128 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:31:56.215 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+10:31:56.215 ## JMeter Test
+10:31:56.216 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:31:56.301 # JMETER
+10:31:56.301 
+   |searchoption|
+   |------------|
+   |qa          |
+10:31:56.301 ## Test One
+10:31:56.302 * Run JMeter Script "jmeter/swatsolutions.jmx" <searchoption>
+10:31:56.407 
+   |searchoption|
+   |------------|
+   |devops      |
+10:31:56.407 ## Test One
+10:31:56.413 * Run JMeter Script "jmeter/swatsolutions.jmx" <searchoption>
+10:31:56.490 
+   |searchoption|
+   |------------|
+   |testing     |
+10:31:56.490 ## Test One
+10:31:56.493 * Run JMeter Script "jmeter/swatsolutions.jmx" <searchoption>
+10:31:56.589 # SearchPage
+10:32:14.178 ## Sample Second Run
+10:32:14.178 * Go to swat solutions website
+10:32:23.941 * Navigate to "WORK HERE" tab
+10:32:28.684 * Click "View Open Positions" button
+
+10:32:38.930 * Search openings "" "" ""
+10:32:38.930 * Select value <jobFunction> on dropdown "1"
+10:32:39.594 * Select value <location> on dropdown "2"
+10:32:39.899 * Enter text <keyword> in field "1"
+10:32:40.082 * Click Search button
+10:32:43.071 * Verify "8" results
+
+10:32:43.123 ## Sample Negative Test
+10:32:43.127 * Go to swat solutions website
+10:32:45.217 * Navigate to "WORK HERE" tab
+10:32:48.072 * Click "View Open Positions" button
+
+10:32:51.099 * Verify value "BEN" doesn't exist in dropdown "1"
+10:32:51.678 * Verify value "BEN" doesn't exist in dropdown "2"
+10:32:52.026 
+   |jobFunction|location   |keyword|results|
+   |-----------|-----------|-------|-------|
+   |Office     |Atlanta, GA|Trial1 |0      |
+10:32:52.026 ## Search For Jobs
+10:32:52.027 * Go to swat solutions website
+10:32:53.934 * Navigate to "WORK HERE" tab
+10:32:54.481 * Click "View Open Positions" button
+
+10:32:58.795 Failed Step: Click "View Open Positions" button
+10:32:58.795 Error Message: java.lang.AssertionError: Exception thrown while getting elements
+10:32:58.795 Specification: specs/swat_website/SearchJobs.spec:12
+10:32:58.795 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+selenium.SeleniumActions.getElementsByTypeAndValue(SeleniumActions.java:604)
+selenium.SeleniumActions.getElements(SeleniumActions.java:538)
+selenium.SeleniumActions.getElementByText(SeleniumActions.java:404)
+selenium.SeleniumActions.clickByText(SeleniumActions.java:48)
+selenium.GeneralSteps.clickButton(GeneralSteps.java:36)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:32:58.805 
+   |jobFunction|location    |keyword|results|
+   |-----------|------------|-------|-------|
+   |DevOps     |Portland, OR|Trial2 |0      |
+10:32:58.805 ## Search For Jobs
+10:32:58.816 * Go to swat solutions website
+10:33:00.942 * Navigate to "WORK HERE" tab
+10:33:03.591 * Click "View Open Positions" button
+
+10:33:06.382 * Search openings <jobFunction> <location> <keyword>
+10:33:06.382 * Select value <jobFunction> on dropdown "1"
+10:33:07.283 * Select value <location> on dropdown "2"
+10:33:07.885 * Enter text <keyword> in field "1"
+10:33:08.124 * Click Search button
+10:33:10.087 * Verify <results> results
+
+10:33:10.116 # SearchPage
+10:33:11.293 
+   |jobFunction|location|keyword|results|
+   |-----------|--------|-------|-------|
+   |Office     |        |Try1   |0      |
+10:33:11.293 ## Search For Jobs
+10:33:11.294 * Go to swat solutions website
+10:34:18.484 * Navigate to "WORK HERE" tab
+10:34:22.642 * Click "View Open Positions" button
+
+10:34:34.195 * Search openings <jobFunction> <location> <keyword>
+10:34:34.195 * Select value <jobFunction> on dropdown "1"
+10:34:35.300 * Select value <location> on dropdown "2"
+10:34:35.780 * Enter text <keyword> in field "1"
+10:34:36.089 * Click Search button
+10:34:39.755 * Verify <results> results
+10:34:39.839 
+   |jobFunction|location   |keyword|results|
+   |-----------|-----------|-------|-------|
+   |Office     |Atlanta, GA|CSV2   |0      |
+10:34:39.839 ## Search For Jobs
+10:34:39.842 * Go to swat solutions website
+10:34:42.634 * Navigate to "WORK HERE" tab
+10:34:46.386 * Click "View Open Positions" button
+
+10:34:49.096 * Search openings <jobFunction> <location> <keyword>
+10:34:49.096 * Select value <jobFunction> on dropdown "1"
+10:34:49.948 * Select value <location> on dropdown "2"
+10:34:50.560 * Enter text <keyword> in field "1"
+10:34:50.832 * Click Search button
+10:34:52.641 * Verify <results> results
+10:34:52.680 
+   |jobFunction|location    |keyword|results|
+   |-----------|------------|-------|-------|
+   |Office     |Portland, OR|       |0      |
+10:34:52.681 ## Search For Jobs
+10:34:52.685 * Go to swat solutions website
+10:34:55.500 * Navigate to "WORK HERE" tab
+10:34:58.222 * Click "View Open Positions" button
+
+10:35:00.463 * Search openings <jobFunction> <location> <keyword>
+10:35:00.463 * Select value <jobFunction> on dropdown "1"
+10:35:01.371 * Select value <location> on dropdown "2"
+10:35:01.941 * Enter text <keyword> in field "1"
+10:35:02.115 * Click Search button
+10:35:03.846 * Verify <results> results
+10:35:04.104 Specifications:	6 executed	4 passed	2 failed	0 skipped
+10:35:04.105 Scenarios:	8 executed	6 passed	2 failed	0 skipped
+10:35:04.105 
+Total time taken: 4m13.134s
+10:37:10.858 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+10:37:11.118 Checking updates...
+10:37:20.388 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+10:37:20.422 # JMETER
+10:37:20.426 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|1          |1           |1        |
+10:37:20.426 ## JMeter Test
+10:37:20.434 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:37:21.332 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+10:37:21.332 ## JMeter Test
+10:37:21.338 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:37:21.416 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+10:37:21.416 ## JMeter Test
+10:37:21.418 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:37:21.584 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:37:21.584 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:37:21.584 
+Total time taken: 1.096s
+10:38:32.290 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+10:38:32.572 Checking updates...
+10:38:40.751 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+10:38:40.798 # JMETER
+10:38:40.802 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|1          |1           |1        |
+10:38:40.806 ## JMeter Test
+10:38:40.812 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:38:41.609 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+10:38:41.609 ## JMeter Test
+10:38:41.613 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:38:41.693 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+10:38:41.693 ## JMeter Test
+10:38:41.694 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:38:41.858 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:38:41.858 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:38:41.858 
+Total time taken: 1.007s
+10:40:33.027 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+10:40:33.255 Checking updates...
+10:40:42.446 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+10:40:42.478 # USERFEEDBACK
+10:40:44.674 
+   |name  |feedback      |
+   |------|--------------|
+   |Andrew|BOLT is great!|
+10:40:44.674 ## Add User Feedback
+10:40:44.691 * Go to "http://192.168.1.44:8086/home"
+10:40:49.432 * Navigate to "User feedback" tab
+
+10:40:51.356 * Enter text <name> in field "1"
+10:40:51.850 * Enter text <feedback> in field "2"
+10:40:52.313 * Click "Send Feedback" button
+
+10:40:52.970 
+   |name|feedback                       |
+   |----|-------------------------------|
+   |Sean|Why didn't we have this sooner?|
+10:40:52.970 ## Add User Feedback
+10:40:52.976 * Go to "http://192.168.1.44:8086/home"
+10:40:54.001 * Navigate to "User feedback" tab
+
+10:40:55.318 * Enter text <name> in field "1"
+10:40:55.832 * Enter text <feedback> in field "2"
+10:40:56.429 * Click "Send Feedback" button
+
+10:40:57.064 
+   |name|feedback             |
+   |----|---------------------|
+   |Arun|This is just awesome!|
+10:40:57.064 ## Add User Feedback
+10:40:57.069 * Go to "http://192.168.1.44:8086/home"
+10:40:58.038 * Navigate to "User feedback" tab
+
+10:40:58.549 * Enter text <name> in field "1"
+10:40:58.920 * Enter text <feedback> in field "2"
+10:40:59.428 * Click "Send Feedback" button
+
+10:41:00.819 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:41:00.819 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:41:00.819 
+Total time taken: 18.274s
+10:42:17.794 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+10:42:18.030 Checking updates...
+10:42:27.440 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+10:42:27.457 # JMETER
+10:42:27.459 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|1          |1           |1        |
+10:42:27.459 ## JMeter Test
+10:42:27.466 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:42:28.486 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+10:42:28.486 ## JMeter Test
+10:42:28.489 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:42:28.574 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+10:42:28.574 ## JMeter Test
+10:42:28.577 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+10:42:28.737 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:42:28.737 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:42:28.737 
+Total time taken: 1.196s
+10:47:05.502 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+10:47:05.798 Checking updates...
+10:47:14.082 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+10:47:14.101 # CONFERENCESCHEDULE
+10:47:16.164 
+   |name  |comment       |
+   |------|--------------|
+   |Andrew|BOLT is great!|
+10:47:16.164 ## Comment on Conference Schedule
+10:47:16.168 * Go to "http://192.168.1.44:8086/home"
+
+10:47:21.991 * Navigate to "Conference Schedule" tab
+10:47:23.256 * Navigate to "25.03.2015" tab
+10:47:23.570 * Click "Comment" button
+10:47:36.370 * Click "Add Comment" button
+10:47:37.276 * Enter text <name> in field "1"
+10:47:37.616 * Enter text <comment> in field "2"
+10:47:38.040 * Click "Add comment" button
+
+10:47:38.616 
+   |name|comment                        |
+   |----|-------------------------------|
+   |Sean|Why didn't we have this sooner?|
+10:47:38.616 ## Comment on Conference Schedule
+10:47:38.622 * Go to "http://192.168.1.44:8086/home"
+
+10:47:39.190 * Navigate to "Conference Schedule" tab
+10:47:40.244 * Navigate to "25.03.2015" tab
+10:47:40.576 * Click "Comment" button
+10:47:52.350 * Click "Add Comment" button
+10:47:53.246 * Enter text <name> in field "1"
+10:47:53.591 * Enter text <comment> in field "2"
+10:47:54.324 * Click "Add comment" button
+
+10:47:54.833 
+   |name|comment              |
+   |----|---------------------|
+   |Arun|This is just awesome!|
+10:47:54.833 ## Comment on Conference Schedule
+10:47:54.835 * Go to "http://192.168.1.44:8086/home"
+
+10:47:55.601 * Navigate to "Conference Schedule" tab
+10:47:56.683 * Navigate to "25.03.2015" tab
+10:47:57.055 * Click "Comment" button
+10:48:08.796 * Click "Add Comment" button
+10:48:10.032 * Enter text <name> in field "1"
+10:48:10.290 * Enter text <comment> in field "2"
+10:48:10.698 * Click "Add comment" button
+
+10:48:11.348 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:48:11.349 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:48:11.349 
+Total time taken: 57.165s
+11:44:44.735 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+11:44:44.951 Checking updates...
+11:44:52.989 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+11:44:53.048 # USERFEEDBACK
+11:44:55.056 
+   |name  |feedback      |
+   |------|--------------|
+   |Andrew|BOLT is great!|
+11:44:55.056 ## Add User Feedback
+11:44:55.059 * Go to "http://192.168.1.44:8086/home"
+11:45:01.212 * Navigate to "User feedback" tab
+
+11:45:03.442 * Enter text <name> in field "1"
+11:45:04.289 * Enter text <feedback> in field "2"
+11:45:04.825 * Click "Send Feedback" button
+
+11:45:05.897 
+   |name|feedback                       |
+   |----|-------------------------------|
+   |Sean|Why didn't we have this sooner?|
+11:45:05.897 ## Add User Feedback
+11:45:05.900 * Go to "http://192.168.1.44:8086/home"
+11:45:07.697 * Navigate to "User feedback" tab
+
+11:45:09.584 * Enter text <name> in field "1"
+11:45:10.756 * Enter text <feedback> in field "2"
+11:45:11.370 * Click "Send Feedback" button
+
+11:45:11.964 
+   |name|feedback             |
+   |----|---------------------|
+   |Arun|This is just awesome!|
+11:45:11.964 ## Add User Feedback
+11:45:11.970 * Go to "http://192.168.1.44:8086/home"
+11:45:13.682 * Navigate to "User feedback" tab
+
+11:45:15.724 * Enter text <name> in field "1"
+11:45:16.030 * Enter text <feedback> in field "2"
+11:45:16.592 * Click "Send Feedback" button
+
+11:45:17.422 Specifications:	1 executed	1 passed	0 failed	0 skipped
+11:45:17.422 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+11:45:17.422 
+Total time taken: 24.337s
+12:35:02.024 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+12:35:02.404 Checking updates...
+12:35:20.716 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+12:35:20.824 # JMETER
+12:35:20.828 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|1          |1           |1        |
+12:35:20.828 ## JMeter Test
+12:35:20.842 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+12:35:22.623 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+12:35:22.623 ## JMeter Test
+12:35:22.635 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+12:35:22.794 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+12:35:22.794 ## JMeter Test
+12:35:22.804 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+12:35:23.039 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:35:23.039 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:35:23.039 
+Total time taken: 2.225s
+12:36:29.484 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+12:36:29.832 Checking updates...
+12:36:47.904 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+12:36:47.937 # USERFEEDBACK
+12:36:52.586 
+   |name  |feedback      |
+   |------|--------------|
+   |Andrew|BOLT is great!|
+12:36:52.586 ## Add User Feedback
+12:36:52.599 * Go to "http://192.168.1.44:8086/home"
+12:36:59.812 * Navigate to "User feedback" tab
+
+12:37:04.596 * Enter text <name> in field "1"
+12:37:05.469 * Enter text <feedback> in field "2"
+12:37:06.290 * Click "Send Feedback" button
+
+12:37:09.210 
+   |name|feedback                       |
+   |----|-------------------------------|
+   |Sean|Why didn't we have this sooner?|
+12:37:09.210 ## Add User Feedback
+12:37:09.235 * Go to "http://192.168.1.44:8086/home"
+12:37:11.442 * Navigate to "User feedback" tab
+
+12:37:14.623 * Enter text <name> in field "1"
+12:37:15.513 * Enter text <feedback> in field "2"
+12:37:16.591 * Click "Send Feedback" button
+
+12:37:19.990 
+   |name|feedback             |
+   |----|---------------------|
+   |Arun|This is just awesome!|
+12:37:19.990 ## Add User Feedback
+12:37:20.011 * Go to "http://192.168.1.44:8086/home"
+12:37:21.910 * Navigate to "User feedback" tab
+
+12:37:24.822 * Enter text <name> in field "1"
+12:37:25.696 * Enter text <feedback> in field "2"
+12:37:26.592 * Click "Send Feedback" button
+
+12:37:29.347 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:37:29.347 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:37:29.347 
+Total time taken: 41.343s
+13:52:10.798 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+13:52:11.129 Checking updates...
+13:52:24.836 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+13:52:24.869 # JMETER
+13:52:24.876 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|1          |1           |1        |
+13:52:24.876 ## JMeter Test
+13:52:24.881 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+13:52:31.830 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+13:52:31.830 ## JMeter Test
+13:52:31.831 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+13:52:35.373 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+13:52:35.373 ## JMeter Test
+13:52:35.388 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+13:52:35.926 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:52:35.926 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:52:35.926 
+Total time taken: 11.115s
+13:55:08.604 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+13:55:08.876 Checking updates...
+13:55:25.239 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+13:55:25.353 # JMETER
+13:55:25.368 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|1          |1           |1        |
+13:55:25.368 ## JMeter Test
+13:55:25.377 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+13:55:31.165 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+13:55:31.165 ## JMeter Test
+13:55:31.181 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+13:55:31.524 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+13:55:31.524 ## JMeter Test
+13:55:31.533 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+13:55:32.052 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:55:32.052 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:55:32.052 
+Total time taken: 6.713s
+15:31:41.558 Gauge Install ID: 96e02b6d-93a1-462e-a7d8-93a7771fc57e
+15:31:41.782 Checking updates...
+15:31:50.896 Error starting plugin Html Report 4.0.2. fork/exec bin/html-report: exec format error
+15:31:50.949 # JMETER
+15:31:50.953 
+   |index|name|feedback        |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------|------------|----|-----------|------------|---------|
+   |1    |john|BOLT is amazing!|192.168.1.44|8086|5          |5           |5        |
+15:31:50.953 ## JMeter Test
+15:31:50.960 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+15:31:56.207 
+   |index|name|feedback   |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|-----------|------------|----|-----------|------------|---------|
+   |2    |sam |This is odd|192.168.1.44|8086|1          |1           |1        |
+15:31:56.207 ## JMeter Test
+15:31:56.210 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+15:31:57.344 
+   |index|name|feedback              |ip          |port|threadCount|rampUpPeriod|loopCount|
+   |-----|----|----------------------|------------|----|-----------|------------|---------|
+   |3    |tom |So this should work...|192.168.1.44|8086|1          |1           |1        |
+15:31:57.344 ## JMeter Test
+15:31:57.347 * Run JMeter Conference Script <index> <name> <feedback> <ip> <port> <threadCount> <rampUpPeriod> <loopCount>
+15:31:57.624 Specifications:	1 executed	1 passed	0 failed	0 skipped
+15:31:57.624 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+15:31:57.624 
+Total time taken: 6.629s

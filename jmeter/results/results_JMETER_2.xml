@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="500" it="0" lt="500" ct="2" ts="1511911916320" s="true" lb="1 /home" rc="200" rm="OK" tn="BOLT_API_and_Protocol 1-1" dt="text" by="5187" sby="428" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Application-Context: Conference App
+Set-Cookie: JSESSIONID=194E8D555C325CDA47DB777D2840757B; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-US
+Content-Length: 4904
+Date: Tue, 28 Nov 2017 23:31:55 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://192.168.1.44:8086/currentSessions
+Accept-Language: en-US,en;q=0.8
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Host: 192.168.1.44:8086
+</requestHeader>
+  <responseData class="java.lang.String">
+
+
+
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;Open Space Software Development @ JavaLand 2015&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css&quot;&gt;
+&lt;!--
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/webjars/bootstrap/2.3.2/css/bootstrap.min.css&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap.css&quot; rel=&quot;stylesheet&quot;&gt;
+ --&gt;
+	&lt;link href=&quot;/css/conference-app.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap-responsive.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+	&lt;!-- Favicon --&gt;
+	&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/img/favicon.png&quot;/&gt;
+
+	&lt;script&gt;
+	  (function(i,s,o,g,r,a,m){i[&apos;GoogleAnalyticsObject&apos;]=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,&apos;script&apos;,&apos;//www.google-analytics.com/analytics.js&apos;,&apos;ga&apos;);
+
+	  ga(&apos;create&apos;, &apos;UA-53994758-1&apos;, &apos;auto&apos;);
+	  ga(&apos;send&apos;, &apos;pageview&apos;);
+
+	&lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+
+
+
+
+
+
+
+
+    &lt;div class=&quot;container-fluid&quot;&gt;
+
+      &lt;!-- Static navbar --&gt;
+
+        &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+
+        &lt;div&gt;
+          &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;!-- aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot; --&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar&quot; &gt;
+              &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;home&quot;&gt;JavaLand 2015&lt;/a&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbar&quot; &gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+              
+              	&lt;li&gt;&lt;a href=&quot;currentSessions&quot;&gt;Current Sessions&lt;/a&gt;&lt;/li&gt;
+              
+              
+			  	&lt;li&gt;&lt;a href=&quot;staticSessions&quot;&gt;Conference Schedule&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;searchSessions&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;venueMap&quot;&gt;Venue Map&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;feedback&quot;&gt;User feedback&lt;/a&gt;&lt;/li&gt;
+			  
+            &lt;/ul&gt;
+            &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+              
+              
+            &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;&lt;!--/.container-fluid --&gt;
+      &lt;/nav&gt;
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+
+	&lt;div class=&quot;jumbotron jumbotron-special&quot;&gt;
+	  &lt;div class=&quot;container&quot;&gt;
+	    &lt;div class=&quot;panel panel-default&quot;&gt;
+	      &lt;div class=&quot;panel-body&quot;&gt;
+	        &lt;h2&gt;DevOps - Control Your Entire Test Pipeline @ SWAT TCQAA 2017 added to pipeline Dev Code Push 1&lt;/h2&gt;
+	        &lt;p&gt; Possibilities are Endless
+	        &lt;/p&gt;
+	      &lt;/div&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-md-4&quot;&gt;
+                &lt;h2&gt;Links&lt;/h2&gt;
+                &lt;h3&gt;&lt;/h3&gt;
+                &lt;p&gt;.......
+                &lt;/p&gt;
+                &lt;h3&gt;....&lt;/h3&gt;
+                &lt;p&gt;Projects&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-md-8&quot;&gt;
+                &lt;h2&gt;&lt;/h2&gt;
+                &lt;p&gt;Git-Repository Github:
+                    &lt;a href=&quot;https://github.com/rburton04/conference-app&quot;&gt;
+                        https://github.com/rburton04/conference-app&lt;/a&gt;&lt;/p&gt;
+                
+                &lt;h2&gt;Developer Quickstart&lt;/h2&gt;
+&lt;pre&gt;
+&lt;code&gt;
+cd monitoring
+mvn clean install
+java -jar target/monitoring-1.0.0.jar
+
+cd app
+mvn clean install
+java -jar target/conference-app-3.0.0.war
+&lt;/code&gt;
+&lt;/pre&gt;
+				&lt;h2&gt;Links&lt;/h2&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Running App &lt;a href=&quot;http://192.168.1.44:8080&quot;&gt;http://192.168.1.44:8080&lt;/a&gt;&lt;/li&gt;
+                    
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;br/&gt;&lt;br/&gt;
+
+
+	&lt;footer class=&quot;footer&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        This is a community app developed by participants of 
+		&lt;a target=&quot;_blank&quot; href=&quot;http://www.javaland.eu/&quot;&gt;JavaLand 2015&lt;/a&gt;
+		(Cologne, Germany)
+		&lt;br /&gt;
+		Hosting is sponsord by 
+		&lt;a href=&quot;http://blog.codecentric.de/en&quot;&gt;codecentric&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+
+    &lt;!-- Bootstrap core JavaScript
+    ================================================== --&gt;
+    &lt;!-- Placed at the end of the document so the pages load faster --&gt;
+    &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+    &lt;!-- Latest compiled and minified JavaScript --&gt;
+    &lt;script src=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/js/conference-app.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.44:8086/home</java.net.URL>
+</httpSample>
+<httpSample t="480" it="0" lt="480" ct="0" ts="1511911916821" s="true" lb="12 /feedback" rc="200" rm="OK" tn="BOLT_API_and_Protocol 1-1" dt="text" by="13525" sby="474" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Application-Context: Conference App
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-US
+Transfer-Encoding: chunked
+Date: Tue, 28 Nov 2017 23:31:57 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://192.168.1.44:8086/home
+Accept-Language: en-US,en;q=0.8
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Host: 192.168.1.44:8086
+</requestHeader>
+  <responseData class="java.lang.String">
+
+
+
+
+
+
+
+
+
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;Open Space Software Development @ JavaLand 2015&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css&quot;&gt;
+&lt;!--
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/webjars/bootstrap/2.3.2/css/bootstrap.min.css&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap.css&quot; rel=&quot;stylesheet&quot;&gt;
+ --&gt;
+	&lt;link href=&quot;/css/conference-app.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap-responsive.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+	&lt;!-- Favicon --&gt;
+	&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/img/favicon.png&quot;/&gt;
+
+	&lt;script&gt;
+	  (function(i,s,o,g,r,a,m){i[&apos;GoogleAnalyticsObject&apos;]=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,&apos;script&apos;,&apos;//www.google-analytics.com/analytics.js&apos;,&apos;ga&apos;);
+
+	  ga(&apos;create&apos;, &apos;UA-53994758-1&apos;, &apos;auto&apos;);
+	  ga(&apos;send&apos;, &apos;pageview&apos;);
+
+	&lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+
+
+
+
+
+
+
+
+    &lt;div class=&quot;container-fluid&quot;&gt;
+
+      &lt;!-- Static navbar --&gt;
+
+        &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+
+        &lt;div&gt;
+          &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;!-- aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot; --&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar&quot; &gt;
+              &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;home&quot;&gt;JavaLand 2015&lt;/a&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbar&quot; &gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+              
+              	&lt;li&gt;&lt;a href=&quot;currentSessions&quot;&gt;Current Sessions&lt;/a&gt;&lt;/li&gt;
+              
+              
+			  	&lt;li&gt;&lt;a href=&quot;staticSessions&quot;&gt;Conference Schedule&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;searchSessions&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;venueMap&quot;&gt;Venue Map&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;feedback&quot;&gt;User feedback&lt;/a&gt;&lt;/li&gt;
+			  
+            &lt;/ul&gt;
+            &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+              
+              
+            &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;&lt;!--/.container-fluid --&gt;
+      &lt;/nav&gt;
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;
+	  &lt;div class=&quot;panel-heading&quot;&gt;
+	    &lt;h3 class=&quot;panel-title&quot;&gt;User feedback&lt;/h3&gt;
+	  &lt;/div&gt;
+	  &lt;div class=&quot;panel-body&quot;&gt;
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;form id=&quot;feedbackFormData&quot; class=&quot;form-horizontal&quot; action=&quot;/feedback&quot; method=&quot;POST&quot;&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;label for=&quot;author&quot; class=&quot;col-sm-2 control-label&quot;&gt;Name&lt;/label&gt;
+			    &lt;div class=&quot;col-sm-5&quot;&gt;
+			      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+			      
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;label for=&quot;text&quot; class=&quot;col-sm-2 control-label&quot;&gt;Feedback&lt;/label&gt;
+			    &lt;div class=&quot;col-sm-5&quot;&gt;
+			      &lt;textarea class=&quot;form-control&quot; rows=&quot;3&quot; id=&quot;feedbackContent&quot; name=&quot;feedbackContent&quot;&gt;&lt;/textarea&gt;
+			      
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;
+			      &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot; id=&quot;addFeedback&quot;&gt;Send Feedback&lt;/button&gt;
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			&lt;/form&gt;
+		&lt;/div&gt;
+		
+		&lt;hr/&gt;
+		
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;tabbable&quot;&gt;
+				&lt;div class=&quot;tab-content&quot;&gt;
+					&lt;table&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.146&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.074&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.005&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.942&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.857&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.13&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.053&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.992&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.926&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.853&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.559&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.479&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.412&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.346&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.3&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.203&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.126&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.115&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.927&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.871&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.844&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.701&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.694&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.505&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.498&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;So this should work...&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;tom - 2017-11-28 21:55:31.877&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 21:55:31.44&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 21:55:31.01&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;So this should work...&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;tom - 2017-11-28 21:52:35.704&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 21:52:35.243&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 21:52:31.45&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					&lt;/table&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+	&lt;footer class=&quot;footer&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        This is a community app developed by participants of 
+		&lt;a target=&quot;_blank&quot; href=&quot;http://www.javaland.eu/&quot;&gt;JavaLand 2015&lt;/a&gt;
+		(Cologne, Germany)
+		&lt;br /&gt;
+		Hosting is sponsord by 
+		&lt;a href=&quot;http://blog.codecentric.de/en&quot;&gt;codecentric&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+
+    &lt;!-- Bootstrap core JavaScript
+    ================================================== --&gt;
+    &lt;!-- Placed at the end of the document so the pages load faster --&gt;
+    &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+    &lt;!-- Latest compiled and minified JavaScript --&gt;
+    &lt;script src=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/js/conference-app.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <cookies class="java.lang.String">JSESSIONID=194E8D555C325CDA47DB777D2840757B</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.44:8086/feedback</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="6" ct="0" ts="1511911917302" s="true" lb="13 /feedback" rc="200" rm="OK" tn="BOLT_API_and_Protocol 1-1" dt="text" by="14008" sby="1231" ng="1" na="1">
+  <httpSample t="6" it="0" lt="6" ct="0" ts="1511911917302" s="true" lb="http://192.168.1.44:8086/feedback" rc="302" rm="Found" tn="BOLT_API_and_Protocol 1-1" dt="" by="214" sby="644" ng="1" na="1">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: Apache-Coyote/1.1
+X-Application-Context: Conference App
+Location: http://192.168.1.44:8086/feedback
+Content-Language: en-US
+Content-Length: 0
+Date: Tue, 28 Nov 2017 23:31:57 GMT
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://192.168.1.44:8086/feedback
+Accept-Language: en-US,en;q=0.8
+Origin: http://192.168.1.44:8086
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Length: 36
+Host: 192.168.1.44:8086
+</requestHeader>
+    <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+    <cookies class="java.lang.String">JSESSIONID=194E8D555C325CDA47DB777D2840757B</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">name=sam&amp;feedbackContent=This+is+odd</queryString>
+    <redirectLocation class="java.lang.String">http://192.168.1.44:8086/feedback</redirectLocation>
+    <java.net.URL>http://192.168.1.44:8086/feedback</java.net.URL>
+  </httpSample>
+  <httpSample t="24" it="0" lt="24" ct="0" ts="1511911917317" s="true" lb="http://192.168.1.44:8086/feedback" rc="200" rm="OK" tn="BOLT_API_and_Protocol 1-1" dt="text" by="13794" sby="587" ng="1" na="1">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Application-Context: Conference App
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-US
+Transfer-Encoding: chunked
+Date: Tue, 28 Nov 2017 23:31:57 GMT
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://192.168.1.44:8086/feedback
+Accept-Language: en-US,en;q=0.8
+Origin: http://192.168.1.44:8086
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Host: 192.168.1.44:8086
+</requestHeader>
+    <responseData class="java.lang.String">
+
+
+
+
+
+
+
+
+
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;Open Space Software Development @ JavaLand 2015&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css&quot;&gt;
+&lt;!--
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/webjars/bootstrap/2.3.2/css/bootstrap.min.css&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap.css&quot; rel=&quot;stylesheet&quot;&gt;
+ --&gt;
+	&lt;link href=&quot;/css/conference-app.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap-responsive.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+	&lt;!-- Favicon --&gt;
+	&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/img/favicon.png&quot;/&gt;
+
+	&lt;script&gt;
+	  (function(i,s,o,g,r,a,m){i[&apos;GoogleAnalyticsObject&apos;]=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,&apos;script&apos;,&apos;//www.google-analytics.com/analytics.js&apos;,&apos;ga&apos;);
+
+	  ga(&apos;create&apos;, &apos;UA-53994758-1&apos;, &apos;auto&apos;);
+	  ga(&apos;send&apos;, &apos;pageview&apos;);
+
+	&lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+
+
+
+
+
+
+
+
+    &lt;div class=&quot;container-fluid&quot;&gt;
+
+      &lt;!-- Static navbar --&gt;
+
+        &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+
+        &lt;div&gt;
+          &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;!-- aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot; --&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar&quot; &gt;
+              &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;home&quot;&gt;JavaLand 2015&lt;/a&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbar&quot; &gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+              
+              	&lt;li&gt;&lt;a href=&quot;currentSessions&quot;&gt;Current Sessions&lt;/a&gt;&lt;/li&gt;
+              
+              
+			  	&lt;li&gt;&lt;a href=&quot;staticSessions&quot;&gt;Conference Schedule&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;searchSessions&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;venueMap&quot;&gt;Venue Map&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;feedback&quot;&gt;User feedback&lt;/a&gt;&lt;/li&gt;
+			  
+            &lt;/ul&gt;
+            &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+              
+              
+            &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;&lt;!--/.container-fluid --&gt;
+      &lt;/nav&gt;
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;
+	  &lt;div class=&quot;panel-heading&quot;&gt;
+	    &lt;h3 class=&quot;panel-title&quot;&gt;User feedback&lt;/h3&gt;
+	  &lt;/div&gt;
+	  &lt;div class=&quot;panel-body&quot;&gt;
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;form id=&quot;feedbackFormData&quot; class=&quot;form-horizontal&quot; action=&quot;/feedback&quot; method=&quot;POST&quot;&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;label for=&quot;author&quot; class=&quot;col-sm-2 control-label&quot;&gt;Name&lt;/label&gt;
+			    &lt;div class=&quot;col-sm-5&quot;&gt;
+			      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+			      
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;label for=&quot;text&quot; class=&quot;col-sm-2 control-label&quot;&gt;Feedback&lt;/label&gt;
+			    &lt;div class=&quot;col-sm-5&quot;&gt;
+			      &lt;textarea class=&quot;form-control&quot; rows=&quot;3&quot; id=&quot;feedbackContent&quot; name=&quot;feedbackContent&quot;&gt;&lt;/textarea&gt;
+			      
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;
+			      &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot; id=&quot;addFeedback&quot;&gt;Send Feedback&lt;/button&gt;
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			&lt;/form&gt;
+		&lt;/div&gt;
+		
+		&lt;hr/&gt;
+		
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;tabbable&quot;&gt;
+				&lt;div class=&quot;tab-content&quot;&gt;
+					&lt;table&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 23:31:57.305&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.146&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.074&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.005&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.942&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.857&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.13&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.053&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.992&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.926&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.853&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.559&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.479&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.412&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.346&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.3&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.203&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.126&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.115&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.927&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.871&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.844&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.701&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.694&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.505&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.498&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;So this should work...&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;tom - 2017-11-28 21:55:31.877&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 21:55:31.44&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 21:55:31.01&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;So this should work...&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;tom - 2017-11-28 21:52:35.704&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 21:52:35.243&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 21:52:31.45&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					&lt;/table&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+	&lt;footer class=&quot;footer&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        This is a community app developed by participants of 
+		&lt;a target=&quot;_blank&quot; href=&quot;http://www.javaland.eu/&quot;&gt;JavaLand 2015&lt;/a&gt;
+		(Cologne, Germany)
+		&lt;br /&gt;
+		Hosting is sponsord by 
+		&lt;a href=&quot;http://blog.codecentric.de/en&quot;&gt;codecentric&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+
+    &lt;!-- Bootstrap core JavaScript
+    ================================================== --&gt;
+    &lt;!-- Placed at the end of the document so the pages load faster --&gt;
+    &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+    &lt;!-- Latest compiled and minified JavaScript --&gt;
+    &lt;script src=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/js/conference-app.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+    <cookies class="java.lang.String">JSESSIONID=194E8D555C325CDA47DB777D2840757B</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://192.168.1.44:8086/feedback</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+X-Application-Context: Conference App
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-US
+Transfer-Encoding: chunked
+Date: Tue, 28 Nov 2017 23:31:57 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://192.168.1.44:8086/feedback
+Accept-Language: en-US,en;q=0.8
+Origin: http://192.168.1.44:8086
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Host: 192.168.1.44:8086
+</requestHeader>
+  <responseData class="java.lang.String">
+
+
+
+
+
+
+
+
+
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;Open Space Software Development @ JavaLand 2015&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css&quot;&gt;
+&lt;!--
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/webjars/bootstrap/2.3.2/css/bootstrap.min.css&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap.css&quot; rel=&quot;stylesheet&quot;&gt;
+ --&gt;
+	&lt;link href=&quot;/css/conference-app.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/bootstrap-responsive.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+	&lt;!-- Favicon --&gt;
+	&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/img/favicon.png&quot;/&gt;
+
+	&lt;script&gt;
+	  (function(i,s,o,g,r,a,m){i[&apos;GoogleAnalyticsObject&apos;]=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,&apos;script&apos;,&apos;//www.google-analytics.com/analytics.js&apos;,&apos;ga&apos;);
+
+	  ga(&apos;create&apos;, &apos;UA-53994758-1&apos;, &apos;auto&apos;);
+	  ga(&apos;send&apos;, &apos;pageview&apos;);
+
+	&lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+
+
+
+
+
+
+
+
+    &lt;div class=&quot;container-fluid&quot;&gt;
+
+      &lt;!-- Static navbar --&gt;
+
+        &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+
+        &lt;div&gt;
+          &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;!-- aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot; --&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar&quot; &gt;
+              &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;home&quot;&gt;JavaLand 2015&lt;/a&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbar&quot; &gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+              
+              	&lt;li&gt;&lt;a href=&quot;currentSessions&quot;&gt;Current Sessions&lt;/a&gt;&lt;/li&gt;
+              
+              
+			  	&lt;li&gt;&lt;a href=&quot;staticSessions&quot;&gt;Conference Schedule&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;searchSessions&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;venueMap&quot;&gt;Venue Map&lt;/a&gt;&lt;/li&gt;
+			  
+			  
+			  	&lt;li&gt;&lt;a href=&quot;feedback&quot;&gt;User feedback&lt;/a&gt;&lt;/li&gt;
+			  
+            &lt;/ul&gt;
+            &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+              
+              
+            &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;&lt;!--/.container-fluid --&gt;
+      &lt;/nav&gt;
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+
+&lt;div class=&quot;container-fluid&quot;&gt;
+
+	&lt;div class=&quot;panel panel-default&quot;&gt;
+	  &lt;div class=&quot;panel-heading&quot;&gt;
+	    &lt;h3 class=&quot;panel-title&quot;&gt;User feedback&lt;/h3&gt;
+	  &lt;/div&gt;
+	  &lt;div class=&quot;panel-body&quot;&gt;
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;form id=&quot;feedbackFormData&quot; class=&quot;form-horizontal&quot; action=&quot;/feedback&quot; method=&quot;POST&quot;&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;label for=&quot;author&quot; class=&quot;col-sm-2 control-label&quot;&gt;Name&lt;/label&gt;
+			    &lt;div class=&quot;col-sm-5&quot;&gt;
+			      &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+			      
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;label for=&quot;text&quot; class=&quot;col-sm-2 control-label&quot;&gt;Feedback&lt;/label&gt;
+			    &lt;div class=&quot;col-sm-5&quot;&gt;
+			      &lt;textarea class=&quot;form-control&quot; rows=&quot;3&quot; id=&quot;feedbackContent&quot; name=&quot;feedbackContent&quot;&gt;&lt;/textarea&gt;
+			      
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			  &lt;div class=&quot;form-group&quot;&gt;
+			    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;
+			      &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot; id=&quot;addFeedback&quot;&gt;Send Feedback&lt;/button&gt;
+			    &lt;/div&gt;
+			  &lt;/div&gt;
+			&lt;/form&gt;
+		&lt;/div&gt;
+		
+		&lt;hr/&gt;
+		
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;tabbable&quot;&gt;
+				&lt;div class=&quot;tab-content&quot;&gt;
+					&lt;table&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 23:31:57.305&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.146&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.074&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:56.005&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.942&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.857&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.13&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:55.053&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.992&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.926&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.853&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.559&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.479&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.412&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.346&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.3&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.203&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.126&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:54.115&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.927&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.871&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.844&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.701&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.694&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.505&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 23:31:53.498&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;So this should work...&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;tom - 2017-11-28 21:55:31.877&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 21:55:31.44&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 21:55:31.01&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;So this should work...&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;tom - 2017-11-28 21:52:35.704&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;This is odd&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;sam - 2017-11-28 21:52:35.243&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					    &lt;span class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/span&gt;
+					    &lt;blockquote&gt;
+						    &lt;p class=&quot;feedback-comment&quot;&gt;BOLT is amazing!&lt;/p&gt;
+                            &lt;small class=&quot;username-and-timestamp&quot;&gt;john - 2017-11-28 21:52:31.45&lt;/small&gt;
+					    &lt;/blockquote&gt;
+					
+					&lt;/table&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+	&lt;footer class=&quot;footer&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        This is a community app developed by participants of 
+		&lt;a target=&quot;_blank&quot; href=&quot;http://www.javaland.eu/&quot;&gt;JavaLand 2015&lt;/a&gt;
+		(Cologne, Germany)
+		&lt;br /&gt;
+		Hosting is sponsord by 
+		&lt;a href=&quot;http://blog.codecentric.de/en&quot;&gt;codecentric&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+
+    &lt;!-- Bootstrap core JavaScript
+    ================================================== --&gt;
+    &lt;!-- Placed at the end of the document so the pages load faster --&gt;
+    &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+    &lt;!-- Latest compiled and minified JavaScript --&gt;
+    &lt;script src=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/js/conference-app.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <cookies class="java.lang.String">JSESSIONID=194E8D555C325CDA47DB777D2840757B</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">http://192.168.1.44:8086/feedback</redirectLocation>
+  <java.net.URL>http://192.168.1.44:8086/feedback</java.net.URL>
+</httpSample>
+
+</testResults>
