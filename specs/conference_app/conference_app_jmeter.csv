@@ -1,2 +1,2 @@
 index,name,feedback,ip,port,threadCount,rampUpPeriod,loopCount
-1,john,BOLT is amazing! on openshift,confappdev-bolt.13.57.153.254.nip.io,,5,5,5
+1,john,BOLT is amazing! on openshift- in PREPROD,confappdev-bolt.13.57.153.254.nip.io,,5,5,5
