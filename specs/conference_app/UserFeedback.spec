@@ -4,7 +4,7 @@ Created by aenoksen on 11/20/17
 
      |name   |feedback                        |
      |-------|--------------------------------|
-     |Andrew |BOLT is great om Openshift!                  |
+     |Andrew |BOLT is great on Openshift2!                  |
      |Sean   |Why didn't we have this sooner? |
      |Arun   |This is just awesome!           |
 
