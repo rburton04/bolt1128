@@ -4,7 +4,13 @@ Created by aenoksen on 11/20/17
 
      |name   |feedback                        |
      |-------|--------------------------------|
-     |Andrew |BOLT is great on Openshift2!                  |
+     |Andrew |BOLT is great on Openshift2!    |
+     |Sean   |Why didn't we have this sooner? |
+     |Arun   |This is just awesome!           |
+     |Andrew |BOLT is great on Openshift2!    |
+     |Sean   |Why didn't we have this sooner? |
+     |Arun   |This is just awesome!           |
+     |Andrew |BOLT is great on Openshift2!    |
      |Sean   |Why didn't we have this sooner? |
      |Arun   |This is just awesome!           |
 
