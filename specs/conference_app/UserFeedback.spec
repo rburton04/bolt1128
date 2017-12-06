@@ -6,8 +6,7 @@ Created by aenoksen on 11/20/17
      |-------|--------------------------------|
      |Andrew |BOLT is great on Openshift2!    |
      |Sean   |Why didn't we have this sooner? |
-     |Arun   |This is just awesome!           |
-     |Andrew |BOLT is great on Openshift2!    |
+     
      
 *Go to "http://confapp-preprod-bolt.13.57.153.254.nip.io/home"
 *Navigate to "User feedback" tab
