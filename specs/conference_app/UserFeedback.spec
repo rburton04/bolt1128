@@ -8,7 +8,7 @@ Created by aenoksen on 11/20/17
      |Sean   |Why didn't we have this sooner? |
      |Arun   |This is just awesome!           |
 
-*Go to "http://confappdev-bolt.13.57.153.254.nip.io/home"
+*Go to "http://confapp-preprod-bolt.13.57.153.254.nip.io/home"
 *Navigate to "User feedback" tab
 
 Add User Feedback
