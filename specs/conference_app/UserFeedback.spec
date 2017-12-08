@@ -4,7 +4,7 @@ Created by aenoksen on 11/20/17
 
      |name   |feedback                        |
      |-------|--------------------------------|
-     |Andrew |BOLT is great- Add Test  !                  |
+     |Andrew |BOLT is great- Add Test2  !                  |
      |Sean   |Why didn't we have this sooner? |
      |Arun   |This is just awesome!           |
 
