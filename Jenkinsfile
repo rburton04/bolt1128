@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'gauge:execute -DspecsDir=specs/conference_app/conference_app_jmeter.spec' 
+                sh 'mvn gauge:execute -DspecsDir=specs/conference_app/conference_app_jmeter.spec' 
             }
         }
     }
