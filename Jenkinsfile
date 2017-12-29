@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven:latest' 
+            image 'rburton04/bolt-build:latest' 
             args '-v /root/.m2:/root/.m2' 
             
 
