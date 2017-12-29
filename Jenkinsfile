@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn clean install' 
+                sh 'gauge:execute -DspecsDir=specs/conference_app/conference_app_jmeter.spec' 
             }
         }
     }
