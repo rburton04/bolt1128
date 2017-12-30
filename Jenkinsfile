@@ -6,7 +6,7 @@ pipeline {
         }
     }
     stages {
-        stage('Build') { 
+        stage('BOLT TESTS') { 
             steps {
                 sh 'mvn gauge:execute -DspecsDir=specs/conference_app/UserFeedback.spec' 
             
