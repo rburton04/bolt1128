@@ -17,7 +17,7 @@ pipeline {
     }
     post {
         always {
-            junit 'jmeter/results/**/*.xml'
+            junit '**/results*.xml'
         }
     }
 
