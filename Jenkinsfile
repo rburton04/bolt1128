@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('BOLT TESTS') { 
             steps {
-                sh 'mvn gauge:execute -DspecsDir=specs/conference_app/conference_app_jmeter.spec' 
+                sh 'mvn gauge:execute -DspecsDir=specs/conference_app/UserFeedback.spec' 
             
             
             publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'reports/html-report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
