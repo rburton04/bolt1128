@@ -13,14 +13,10 @@ pipeline {
             
             
             publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'reports/html-report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
-           performanceReport parsers: [[$class: 'JMeterParser', glob: '**/*result.xml']], relativeFailedThresholdNegative: 1.2, relativeFailedThresholdPositive: 1.89, relativeUnstableThresholdNegative: 1.8, relativeUnstableThresholdPositive: 1.5
+            perfReport modePerformancePerTestCase: true, modeThroughput: true, sourceDataFiles: '**/results*.xml'
+
         }
       }
     }
-    post {
-        always {
-            junit '/jmeter/results/results*.xml'
-        }
-    }
-
+   
 }
