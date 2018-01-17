@@ -1,4 +1,4 @@
 index,name,feedback,ip,port,threadCount,rampUpPeriod,loopCount
-1,john,BOLT is amazing! on openshift,192.168.1.45,48080,5,5,5
-2,sam,This is odd,192.168.1.45,48080,1,1,1
-3,tom,So this should work...,192.168.1.45,48080,1,1,1
+1,john,BOLT is amazing! on openshift,confapp-qa-bolt.192.168.99.100.nip.io,,5,5,5
+2,sam,This is odd,openshift,confapp-qa-bolt.192.168.99.100.nip.io,,1,1,1
+3,tom,So this should work...,openshift,confapp-qa-bolt.192.168.99.100.nip.io,,1,1,1
