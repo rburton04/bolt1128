@@ -11,7 +11,7 @@ Created by aenoksen on 11/20/17
      |Andrew |BOLT is great on Openshift2!    |
      |Sean   |Why didn't we have this sooner? |
      
-*Go to "http://confapp-preprod-bolt.13.57.153.254.nip.io/home"
+*Go to "http://confapp-qa-bolt.192.168.99.100.nip.io/home"
 *Navigate to "User feedback" tab
 
 Add User Feedback
