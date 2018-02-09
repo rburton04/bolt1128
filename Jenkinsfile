@@ -9,6 +9,7 @@ pipeline {
     stages {
         stage('BOLT TESTS') { 
             steps {
+                sh 'mvn test-compile'
                 sh 'mvn gauge:execute -DspecsDir=specs/conference_app/conference_app_jmeter.spec' 
             
             
