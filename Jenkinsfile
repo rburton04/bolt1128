@@ -10,7 +10,7 @@ pipeline {
         stage('BOLT TESTS') { 
             steps {
                 sh 'mvn test-compile'
-                sh 'mvn gauge:execute -DspecsDir=specs/conference_app/UserFeedback.spec -DinParallel=true -Dnodes=3' 
+                sh 'mvn gauge:execute -DspecsDir=specs/conference_app/UserFeedback.spec' 
             
             
              publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'reports/html-report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
