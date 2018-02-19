@@ -10,6 +10,12 @@ Created by aenoksen on 11/20/17
      |Sean   |Why didn't we have this sooner? |
      |Andrew |BOLT is great on Openshift2!    |
      |Sean   |Why didn't we have this sooner? |
+     |Andrew |BOLT is great on Openshift2!    |
+     |Sean   |Why didn't we have this sooner? |
+     |Andrew |BOLT is great on Openshift2!    |
+     |Sean   |Why didn't we have this sooner? |
+     |Andrew |BOLT is great on Openshift2!    |
+     |Sean   |Why didn't we have this sooner? |
      
 *Go to "http://confapp-qa-bolt.70.42.161.227.nip.io/home"
 *Navigate to "User feedback" tab
