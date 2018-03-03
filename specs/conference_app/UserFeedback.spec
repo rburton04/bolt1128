@@ -6,7 +6,7 @@ Created by aenoksen on 11/20/17
      |-------|--------------------------------|
      |Andrew |BOLT is great on Open shift !                  |
      |Sean   |Why didn't we have this sooner? |
-     |Arun   |This is just awesome!           |
+     |Arun   |This is just awesome new HQ!           |
 
 *Go to "http://192.168.1.45:48080/home"
 *Navigate to "User feedback" tab
