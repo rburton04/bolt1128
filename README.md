@@ -59,4 +59,4 @@ Note:
 * Running Gauge specs with [Maven](https://maven.apache.org/)
 
 # Copyright
-Copyright 2016, ThoughtWorks Inc.
+Copyright 2018, ThoughtWorks Inc.
