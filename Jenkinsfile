@@ -15,6 +15,7 @@ pipeline {
             
              publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'reports/html-report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             //perfReport modePerformancePerTestCase: true, modeThroughput: true, sourceDataFiles: '**/results*.xml'
+            hygieiaDeployPublishStep applicationName: 'bolt1', artifactDirectory: '$WORKSPACE', artifactGroup: 'com.bolt.bolt1', artifactName: 'xml', artifactVersion: '1.0', buildStatus: 'Success', environmentName: 'Dev'
 
         }
       }
