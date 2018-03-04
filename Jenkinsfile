@@ -16,7 +16,7 @@ pipeline {
              publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'reports/html-report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: ''])
             //perfReport modePerformancePerTestCase: true, modeThroughput: true, sourceDataFiles: '**/results*.xml'
             hygieiaDeployPublishStep applicationName: 'bolt1', artifactDirectory: '/var/jenkins_home/workspace/bolt-github/reports/html-report', artifactGroup: 'com.bolt.bolt1', artifactName: 'html', artifactVersion: '1.0', buildStatus: 'Success', environmentName: 'Dev'
-
+            hygieiaArtifactPublishStep artifactDirectory: '/var/jenkins_home/workspace/bolt-github/reports/html-report', artifactGroup: 'com.swat.bolt1', artifactName: 'html', artifactVersion: '1.0'
         }
       }
     }
