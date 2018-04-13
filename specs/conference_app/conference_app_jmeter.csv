@@ -1,4 +1,4 @@
 index,name,feedback,ip,port,threadCount,rampUpPeriod,loopCount
-1,john,BOLT is amazing! on openshift,http://app2-service-bolt.router.default.svc.cluster.local,,5,5,5
-2,sam,This is odd,openshift,http://app2-service-bolt.router.default.svc.cluster.local,,1,1,1
-3,tom,So this should work...,http://app2-service-bolt.router.default.svc.cluster.local,,1,1,1
+1,john,BOLT is amazing! on openshift,app2-service-bolt.router.default.svc.cluster.local,,5,5,5
+2,sam,This is odd,app2-service-bolt.router.default.svc.cluster.local,,1,1,1
+3,tom,So this should work...,app2-service-bolt.router.default.svc.cluster.local,,1,1,1
