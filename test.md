@@ -14,9 +14,9 @@ UN admin PW admin ( note: use the openshift client commands for 1 and 2.)
 
 3. Let's add a test app to our Openshift project
 
-a. docker container - rburton04/conference-app-qa
-b. from the command line create a new app using the above docker container
-c. Show app running in our project from the GUI Interface.
+a_docker container - rburton04/conference-app-qa
+b_from the command line create a new app using the above docker container
+c_Show app running in our project from the GUI Interface.
 
 4. Scale the app from 1 pod to 2 pods, then back down to 1.
 
