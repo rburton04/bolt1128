@@ -14,9 +14,10 @@ UN admin PW admin ( note: use the openshift client commands for 1 and 2.)
 
 3. Let's add a test app to our Openshift project\
 
-a_docker container - rburton04/conference-app-qa\
-b_from the command line create a new app using the above docker container\
-c_Show app running in our project from the GUI Interface.
+a_ Docker container - rburton04/conference-app-qa\
+b_ From the command line create a new app using the above docker container\
+c_ Show App POD running in our project from the GUI Interface.\
+d_ From the Browser GUI create a Route for the App using the "App2-service"\
 
 4. Scale the app from 1 pod to 2 pods, then back down to 1.
 
@@ -26,7 +27,7 @@ c_Show app running in our project from the GUI Interface.
 
 7. Execute the pipeline from Openshift
 
-8. run the test app (Conference App) in the browser using the provided route URL, goto Feedback and verify data entered from test.
+8. run the test app (Conference App) in the browser using the provided route URL created in step 3d, goto Feedback and verify data entered from test.
 
 9. Curently Openshift is setup to allow all users and any password. From the provided directory what file do you use to change the IDENTITY PROVIDER?
 
