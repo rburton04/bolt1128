@@ -28,4 +28,6 @@ c. Show app running in our project from the GUI Interface.
 
 8. Access the Test App (Conference App) from browser, goto Feedback and verify data entered from test.
 
+9. Curently Openshift is setup to allow all users and any password. From the provided directory what file do you use to change the IDENTITY PROVIDER?
+
 Done 
