@@ -2,7 +2,7 @@ Browser:
 Openshift URL - https://master2.local:8443
 
 SSH Terminal to Master ( Openshift Command Line)
-192.168.1.80
+192.168.1.79
 
 
 1. from terminal login using the following Username and Password
