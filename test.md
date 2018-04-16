@@ -6,7 +6,7 @@ SSH Terminal to Master ( Openshift Command Line)
 
 
 1. from terminal login using the following Username and Password
-UN admin PW admin ( note: use the openshift client commands for 1 and 2.)
+UN bolt2 PW bolt2 ( note: use the openshift client commands for 1 and 2.)
 
 2. Run the command to show all running PODS
 
