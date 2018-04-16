@@ -29,6 +29,6 @@ d_ From the Browser GUI create a Route for the App using the "App2-service"\
 
 8. run the test app (Conference App) in the browser using the provided route URL created in step 3d, goto Feedback and verify data entered from test.
 
-9. Curently Openshift is setup to allow all users and any password. From the provided directory what file do you use to change the IDENTITY PROVIDER?
+9. Curently Openshift is setup with the HTPasswd Provider. From the provided directory what file do you use to change the IDENTITY PROVIDER.
 
 Done 
