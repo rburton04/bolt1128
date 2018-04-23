@@ -10,7 +10,7 @@ UN bolt2 PW bolt2 ( note: use the openshift client commands for 1 and 2.)
 
 2. Run the command to show all running PODS
 
-3. From the browser login to openshift using admin admin, goto BOLT project and show running POD that you saw with the command line view.
+3. From the browser login to openshift using bolt2 bolt2, goto BOLT project and show running POD that you saw with the command line view.
 
 3. Let's add a test app to our Openshift project\
 
