@@ -8,7 +8,7 @@ Created by aenoksen on 11/20/17
      |Sean   |Why didn't we have this sooner? |
      |Arun   |This is just awesome new HQ!           |
 
-*Go to "http://172.30.144.145:8080/home"
+*Go to "http://app2-service-bolt.router.default.svc.cluster.local/home"
 *Navigate to "User feedback" tab
 
 Add User Feedback
